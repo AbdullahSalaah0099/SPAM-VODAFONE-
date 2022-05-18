@@ -1,5 +1,7 @@
 import requests,sys,time
+from bs4 import BeautifulSoup as BS
 import requests,random 
+from time import sleep 
 import sys,time,pyfiglet ,os
 print ('\033[;093m')
 time.sleep (0)
