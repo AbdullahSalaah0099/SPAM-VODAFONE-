@@ -3,15 +3,27 @@ import requests,random
 import sys,time,pyfiglet ,os
 print ('\033[;093m')
 time.sleep (0)
-x=input ('\033[;093m》Enter Password  : \033[;096m')	
-if x == 'AbdullahSalah0099':
-    time.sleep (0.6)
-    print ()
-    print ('》True password')
-    print ('\033[;092m')
+print ('\033[1;92mclick on this link to get password👇')
+#sleep (0.1)
+print ()
+link1="\033[1;93m https://miklpro.com/JT0K"
+print (link1)
+#sleep (1)
+print ()
+password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
+sleep (1)
 
-else :
-    print ('\033[;091mError Password Try again')
+rrr=requests.get('https://pastelink.net/hs3u3mwg').text
+soup=BS(rrr,'html.parser')
+lxc=(soup.find('div',{'class':'body-display'})).text
+
+if password in lxc:
+    print ()
+    print ('\033[1;96m》True Password《')
+    sleep (1)
+else:
+    print ()
+    print ('\033[1;91mError Password')
     exit()
 time.sleep (2)
 print ('\033[;093m='*50)
