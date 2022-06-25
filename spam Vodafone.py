@@ -8,20 +8,20 @@ time.sleep (0)
 print ('\033[1;92mclick on this link to get password👇')
 #sleep (0.1)
 print ()
-link1="\033[1;93m https://miklpro.com/eI6bKg"
+link1="\033[1;93m https://miklpro.com/scs4Je"
 print (link1)
 #sleep (1)
 print ()
 password=input ('\033[1;92m》Enter Password Script :  \033[1;96m')
 sleep (1)
 
-rrr=requests.get('https://pastelink.net/kfwegguu').text
+'''rrr=requests.get('https://pastelink.net/kfwegguu').text
 soup=BS(rrr,'html.parser')
-lxc=(soup.find('div',{'class':'body-display'})).text
+lxc=(soup.find('div',{'class':'body-display'})).text'''
 
-if password in lxc:#=="Abdullah7007":
+if password =="Abdullah0912":
     print ()
-    print ('\033[1;96m》True Password《')
+    print ('\033[1;96mTrue Password')
     sleep (1)
 else:
     print ()
