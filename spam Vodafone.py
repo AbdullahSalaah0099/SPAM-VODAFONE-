@@ -151,7 +151,7 @@ else :
         elif '1|#||4|9|pageRedirect||%2fverify|' in r:
             time.sleep (1)
             number_of_messegesx=number_of_messegesx+1
-            print (f'\033[;096mDone Send {number_of_messegesx} SMS')
+            print (f'\033[;096mDone Sent {number_of_messegesx} SMS')
 
         else:
             print ('\033[;091mSomthing wrong')
