@@ -84,7 +84,7 @@ else :
 #    print ('\033[;091mError Password')
     number_of_messegesx=0
     while number_of_messegesx<number_of_messeges: 
-
+        sleep(2)
         url='http://90minvf.com/login'
 
         headers ={
